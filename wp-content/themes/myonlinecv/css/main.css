@@ -76,6 +76,21 @@
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#createResume {
+    cursor: pointer;
+    width: 100px;
+    display: inline; /* Hidden by default */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: blue; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 15px; /* Increase font size */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 #saveResume:hover {
     background-color: #555; /* Add a dark-grey background on hover */
 }
