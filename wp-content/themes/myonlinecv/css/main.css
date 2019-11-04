@@ -1,0 +1,102 @@
+
+@media print {
+    @page :footer {color: #fff }
+    @page :header {color: #fff}
+    #github-mobile {
+        display: none;
+    }
+    #github {
+        display: none;
+    }    
+    #editor {
+        display: none;
+    }
+    .code-text-container {
+        display: none;
+    }
+    .code-link-container {
+        display: none;
+    }
+}
+
+#github {
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 100px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #333; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 15px; /* Increase font size */
+    width: 30%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.code-links {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+
+#github-mobile { 
+    display: none;
+}
+
+#editor {
+    height: 300px;
+}
+
+.code-link-container { 
+    text-align: right;
+}
+
+.code-text-container {
+    margin: 2%;
+    color: #aaa;
+}
+
+
+#saveResume {
+    cursor: pointer;
+    width: 100px;
+    display: inline; /* Hidden by default */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 15px; /* Increase font size */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#saveResume:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+@media only screen and (max-width: 600px) {
+    #github {
+      display: none;
+    }
+    #editor {
+        display: none;
+    }
+    #github-mobile {
+        display: block;
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: #333; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 15px; /* Increase font size */
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+  }
