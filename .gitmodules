@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/myonlinecv/js/wp-content/themes/myonlinecv/js/resume-jf-app"]
+	path = wp-content/themes/myonlinecv/js/wp-content/themes/myonlinecv/js/resume-jf-app
+	url = https://github.com/joeFong/resume-jf-app.git
